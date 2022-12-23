@@ -1,0 +1,55 @@
+.register-container {
+    flex-direction: column;
+}
+
+.register-container input {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px 24px;
+    line-height: 18px;
+    color: #575756;
+    border-radius: 8px;
+    border: 1px solid #575756;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    margin-top: 50px;
+}
+
+.register-container input::placeholder {
+    color: color(#575756 a(0.8));
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.register-container button {
+    background-color: #DF4244;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 50px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.register-container button:hover {
+    background-color: #43D167;
+}
+
+@media (max-width:1023px) {
+    .register-container {
+        min-height: 136vw;
+    }
+
+    .register-container input {
+        width: calc(100% - 36px);
+    }
+
+    .register-container button {
+        width: calc(100% - 36px);
+    }
+}

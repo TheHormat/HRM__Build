@@ -1,0 +1,19 @@
+.terms-of-use {
+    margin-top: 60px;
+}
+
+.terms-of-use h4 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.terms-of-use h4 span {
+    color: #DF4244;
+}
+
+@media (max-width:1023px) {
+    .terms-of-use {
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+}

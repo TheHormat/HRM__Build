@@ -1,0 +1,88 @@
+.alet-sehifesi {
+    padding: 3vw 3vw;
+}
+
+.alet-left {
+    width: 94vw;
+}
+
+.alet-left-shekil-uchun-container {
+    width: 94vw;
+    height: 94vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.alet-left-shekil {
+    max-width: 85vw;
+    max-height: 85vw;
+    transition: 0.3s;
+}
+
+.alet-left-shekil-uchun-container:hover .alet-left-shekil {
+    transform: scale(1.1);
+}
+
+.alet-right {
+    width: 94vw;
+}
+
+@media (min-width:768px) {
+    .alet-sehifesi {
+        padding: 15px 15px;
+        display: flex;
+    }
+
+    .alet-left {
+        width: 50vw;
+    }
+
+    .alet-left-shekil-uchun-container {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .alet-left-shekil {
+        max-width: 45vw;
+        max-height: 45vw;
+    }
+
+    .alet-right {
+        width: 50vw;
+        padding-left: 1vw;
+    }
+}
+
+@media (min-width:1024px) {
+    .alet-sehifesi {
+        padding: 15px 0px;
+    }
+
+    .alet-left {
+        width: 37vw;
+    }
+
+    .alet-left-shekil-uchun-container {
+        width: 37vw;
+        height: 37vw;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .alet-left-shekil {
+        max-width: 33vw;
+        max-height: 33vw;
+    }
+
+    .alet-right {
+        width: 37vw;
+    }
+
+    .yuxari-ashagi {
+        margin-top: 50%;
+        transform: translateY(-50%)
+    }
+}

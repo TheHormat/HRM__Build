@@ -1,0 +1,28 @@
+.slick-dots {
+    display: flex !important;
+    justify-content: center;
+
+}
+
+.slick-dots li {
+    font-size: 0;
+    margin: 0 3px;
+
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    background-color: #575757;
+    width: 16px;
+    height: 16px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    border-radius: 8px;
+    transition: 0.2s !important;
+}
+
+.slick-dots li.slick-active button {
+    width: 24px;
+    background-color: #DF4244;
+}
